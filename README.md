@@ -20,10 +20,10 @@ I started on assignment two, by adding a page to my "about me" section
 
 ## Honorable Mentions
 
-Ellie Forte - Was there for my breakdowns, great support group
-Kyle Welsh - Helped me so much, 10/10
-Karen Sule - Also great support group
-Vitaly Gins - Overall really helpful and helps me make sure I didn't miss anything on my assignments
+- Ellie Forte - Was there for my breakdowns, great support group
+- Kyle Welsh - Helped me so much, 10/10
+- Karen Sule - Also great support group
+- Vitaly Gins - Overall really helpful and helps me make sure I didn't miss anything on my assignments
 
 ## Attributions
 
