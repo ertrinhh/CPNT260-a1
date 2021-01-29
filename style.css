@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+body {
   background-color: #f9f9f9;
 }
 nav {
@@ -71,6 +73,7 @@ section {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  font-size: 1.25rem;
 }
 .intro-text p {
   max-width: 400px;
@@ -99,6 +102,21 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.socials li a {
+  padding: 0px 20px;
+  color: white;
+  text-decoration: none;
+}
+.socials li a:hover {
+  color: black;
+}
 /* media queries small screen */
 @media screen and (max-width: 620px) {
   .wrapper {
@@ -112,7 +130,17 @@ footer {
     text-align: center;
     padding-top: 20px;
   }
+
   nav ul li {
     font-size: 14px;
   }
+}
+/* This is for my cards in about me */
+.congee-banff {
+  width: 400px;
+  height: auto;
+}
+.about-me {
+  display: flex;
+  flex-direction: row;
 }
