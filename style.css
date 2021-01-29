@@ -73,7 +73,8 @@ section {
   flex-direction: column;
 }
 .intro-text p {
-  max-width: 540px;
+  max-width: 400px;
+  padding-top: 20px;
 }
 /*about me button, second cta */
 button {
@@ -104,7 +105,12 @@ footer {
     flex-direction: column;
   }
   .intro-text {
-    padding-top: 12px;
+    padding: 20px 15%;
+    align-items: center;
+  }
+  .intro-text p {
+    text-align: center;
+    padding-top: 20px;
   }
   nav ul li {
     font-size: 14px;
