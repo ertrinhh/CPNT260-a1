@@ -35,6 +35,7 @@ nav li a {
 nav li a:hover {
   color: rgb(135, 206, 250);
 }
+
 /* button on nav bar */
 .cta {
   background-color: rgba(135, 206, 250, 1);
@@ -48,7 +49,7 @@ nav li a:hover {
   background-color: rgba(135, 206, 250, 0.5);
 }
 /*landing page image and heading */
-section {
+section.landing-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,11 +97,11 @@ button:hover {
 }
 footer {
   background-color: rgb(135, 206, 250);
-  padding: 1rem;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding-top: 20px;
 }
 .socials {
   list-style: none;
@@ -135,12 +136,137 @@ footer {
     font-size: 14px;
   }
 }
-/* This is for my cards in about me */
+/* about me page */
+
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.about-me-text {
+  max-width: 30ch;
+  text-align: center;
+  padding: 3em 1em;
+}
+.about-me p {
+  padding: 3em 1em;
+}
 .congee-banff {
-  width: 400px;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .about-me {
-  display: flex;
-  flex-direction: row;
+  border: 3px solid red;
+  margin-right: 5%;
+}
+.family-divider {
+  text-align: center;
+  margin: 3%;
+}
+/* three family cards */
+.family-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 460px;
+  gap: 30px;
+  place-items: stretch / center;
+  margin: auto;
+  width: 100%;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .family-cards {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .family-cards {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .family-cards {
+    width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .family-cards {
+    width: 1140px;
+  }
+}
+.family-cards .three-cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.family-cards .three-cards .image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.family-cards .three-cards .image-card img {
+  width: 100%;
+}
+
+.family-cards .three-cards .card-content {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: -100%;
+  padding: 60px 20px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.family-cards .three-cards:hover .card-content {
+  bottom: 0;
+}
+
+.family-cards .three-cards:nth-child(1) .card-content {
+  background: linear-gradient(0deg, #195268, transparent);
+}
+
+.family-cards .three-cards:nth-child(2) .card-content {
+  background: linear-gradient(0deg, #513833, transparent);
+}
+
+.family-cards .three-cards:nth-child(3) .card-content {
+  background: linear-gradient(0deg, #352c2d, transparent);
+}
+
+.family-cards .three-cards:nth-child(4) .card-content {
+  background: linear-gradient(0deg, #494846, transparent);
+}
+
+.family-cards .three-cards .card-content h2 {
+  margin-bottom: 8px;
+  padding: 0;
+  color: #fff;
+  font-size: 22px;
+}
+
+.family-cards .three-cards .card-content h3 {
+  color: #ffeb3b;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.family-cards .three-cards .card-content p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
 }
