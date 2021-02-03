@@ -146,24 +146,25 @@ footer {
 .about-me-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-me-text {
-  max-width: 30ch;
+  max-width: 40ch;
   text-align: center;
   padding: 3em 1em;
 }
 .about-me p {
-  padding: 3em 1em;
+  padding: 2em 1em;
 }
 .congee-banff {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 9px 9px 0 rgba(0, 0, 0, 0.5);
 }
+
 .about-me {
-  border: 3px solid red;
   margin-right: 2%;
   margin: 3%;
 }
@@ -172,6 +173,11 @@ footer {
   font-size: 2em;
   text-align: center;
   margin: 3%;
+  background-image: -webkit-linear-gradient(#4a00e0, #51b0d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 /* three family cards */
 .family-cards {
@@ -180,12 +186,13 @@ footer {
   grid-auto-rows: 460px;
   gap: 30px;
   place-items: stretch / center;
-  margin: 40px 20%;
+  margin: auto;
+  margin-bottom: 3%;
   width: 100%;
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
   .family-cards {
-    width: 540px;
+    width: 400px;
   }
 }
 
