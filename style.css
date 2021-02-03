@@ -9,12 +9,18 @@
 body {
   background-color: #f9f9f9;
 }
+.landingpage-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 nav {
   width: 100%;
   height: 10vh;
   display: flex;
   justify-content: flex-end;
-  color: pink;
 }
 nav ul {
   display: flex;
@@ -28,7 +34,7 @@ nav ul li {
 }
 nav li a {
   padding: 0 20px;
-  color: pink;
+  color: black;
   transition: all 0.5s ease 0s;
   text-decoration: none;
 }
@@ -59,7 +65,7 @@ section.landing-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1;
+  flex: 1 1 50%;
   width: 100%;
   max-width: 1440px;
   padding: 12px;
@@ -97,11 +103,10 @@ button:hover {
 }
 footer {
   background-color: rgb(135, 206, 250);
+  padding: 1rem;
   text-align: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 20px;
+  display: block;
+  justify-content: center;
 }
 .socials {
   list-style: none;
@@ -136,13 +141,13 @@ footer {
     font-size: 14px;
   }
 }
-/* about me page */
 
+/* about me page */
 .about-me-section {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
 }
+
 .about-me-text {
   max-width: 30ch;
   text-align: center;
@@ -159,9 +164,12 @@ footer {
 }
 .about-me {
   border: 3px solid red;
-  margin-right: 5%;
+  margin-right: 2%;
+  margin: 3%;
 }
 .family-divider {
+  font-family: "raleway", sans-serif;
+  font-size: 2em;
   text-align: center;
   margin: 3%;
 }
@@ -172,8 +180,7 @@ footer {
   grid-auto-rows: 460px;
   gap: 30px;
   place-items: stretch / center;
-  margin: auto;
-  margin-bottom: 500px;
+  margin: 40px 20%;
   width: 100%;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -237,19 +244,15 @@ footer {
 }
 
 .family-cards .three-cards:nth-child(1) .card-content {
-  background: linear-gradient(0deg, #195268, transparent);
+  background: linear-gradient(0deg, #3f3a85, transparent);
 }
 
 .family-cards .three-cards:nth-child(2) .card-content {
-  background: linear-gradient(0deg, #513833, transparent);
+  background: linear-gradient(0deg, #195268, transparent);
 }
 
 .family-cards .three-cards:nth-child(3) .card-content {
-  background: linear-gradient(0deg, #352c2d, transparent);
-}
-
-.family-cards .three-cards:nth-child(4) .card-content {
-  background: linear-gradient(0deg, #494846, transparent);
+  background: linear-gradient(0deg, #203f83, transparent);
 }
 
 .family-cards .three-cards .card-content h2 {

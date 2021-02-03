@@ -14,9 +14,11 @@ Goal: to create a page where I can show others pictures of my dog (aside from In
 
 ## Assignment 1
 
-Assignment one is on home page index.html
+Assignment one is on home page index.html, simple landing page that connects to second page - about me
 
 I started on assignment two, by adding a page to my "about me" section
+
+- about me section should have cards about owners, and also more information on congee
 
 ## Honorable Mentions
 
@@ -29,7 +31,11 @@ I started on assignment two, by adding a page to my "about me" section
 
 <strong>Font Awesome</strong>, [License Here](https://fontawesome.com/license/free)
 
+<strong>Icon-Icons</strong>, [License here](https://icon-icons.com/terms-of-use/)
+
 1. [Instagram](https://fontawesome.com/icons/instagram?style=brands)
 2. [Twitter](https://fontawesome.com/icons/twitter?style=brands)
 3. [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
 4. [Github](https://fontawesome.com/icons/github?style=brands)
+5. [Paw prints](https://icon-icons.com/download/108559/ICO/128/)
+6. [Card animation-FrankieDoodle CodePen](https://codepen.io/FrankieDoodie/pen/KxZVKz?editors=1100)
