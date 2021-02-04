@@ -35,7 +35,7 @@ Assignment three starts on the "gallery" section.
 - Ellie Forte - Was there for my breakdowns, great support group
 - Kyle Welsh - Helped me so much, 10/10
 - Karen Sule - Also great support group
-- Vitaly Gins - Overall really helpful and helps me make sure I didn't miss anything on my assignments
+- Vitaly Gins - Overall really helpful 10/10, helped me fix a lot of things for my second assignment!
 
 ## Attributions
 
