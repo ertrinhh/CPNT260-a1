@@ -1,4 +1,4 @@
-## CPNT 260 - Nav bar
+## CPNT 260
 
 # Erica Trinh
 
@@ -12,13 +12,23 @@ Client: Family memebers who want to show off our dog to others
 
 Goal: to create a page where I can show others pictures of my dog (aside from Instagram), and so people can inquire about having doggy play-dates. My dog is quite old, so it would be a great way to remember his best years.
 
-## Assignment 1
+## Assignment 1 - Nav Bar
 
-Assignment one is on home page index.html, simple landing page that connects to second page - about me
+Assignment one is on home page index.html, simple landing page that connects to second page - about me.
+This connects my main nav bar with my hero page created with my SVG
 
-I started on assignment two, by adding a page to my "about me" section
+## Assignment 2 - Cards
 
-- about me section should have cards about owners, and also more information on congee
+I started on assignment two, by adding a page to my "about me" section. I added a snipped of more information about my dog, and also added in 3 profile cards for family members.
+
+- To do: Add in descriptions of family members in paragraph section, replace lorem text
+
+## Assignment 3 - Image Gallery
+
+Assignment three starts on the "gallery" section.
+
+- need to add in header
+- Social media links were added from the start in the footer section
 
 ## Honorable Mentions
 
@@ -33,9 +43,4 @@ I started on assignment two, by adding a page to my "about me" section
 
 <strong>Icon-Icons</strong>, [License here](https://icon-icons.com/terms-of-use/)
 
-1. [Instagram](https://fontawesome.com/icons/instagram?style=brands)
-2. [Twitter](https://fontawesome.com/icons/twitter?style=brands)
-3. [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
-4. [Github](https://fontawesome.com/icons/github?style=brands)
-5. [Paw prints](https://icon-icons.com/download/108559/ICO/128/)
-6. [Card animation-FrankieDoodle CodePen](https://codepen.io/FrankieDoodie/pen/KxZVKz?editors=1100)
+1. [Card animation-FrankieDoodle CodePen](https://codepen.io/FrankieDoodie/pen/KxZVKz?editors=1100)
